@@ -10,14 +10,7 @@ import "firebase/compat/analytics";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 
-firebase.initializeApp({
-  apiKey: "AIzaSyBVnVOWfLNB3XWTYzrKraMLfK66b7wtS1M",
-  authDomain: "megafun-message.firebaseapp.com",
-  projectId: "megafun-message",
-  storageBucket: "megafun-message.appspot.com",
-  messagingSenderId: "128794241828",
-  appId: "1:128794241828:web:8bc0ae75f0cbe5001061b1",
-  measurementId: "G-97Y5SPBEH9",
+firebase.initializeApp({api-key
 });
 
 const auth = firebase.auth();
